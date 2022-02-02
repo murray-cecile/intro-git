@@ -27,7 +27,7 @@ Once you're ready, hit "clone." You will probably get prompted for some credenti
 
 ### Pull, make a change to an existing file, commit, push
 
-Let's say we want to make a change to `print_stuff.py`. 
+Let's say we want to make a change to `example.py`. 
 
 1. Since we just cloned this repo and no one else is working on it, we know we have the most updated version, but it's a best practice to **always pull first**.  "Pulling" means asking the GitLab remote server for the most recent version of the files that it knows about. In other words, pulling is like saying "go get me what's on the website."
 
@@ -46,6 +46,19 @@ Once I type this message, I can hit "commit to master," meaning that I am tellin
 5. Finally, we need to **push** the commit so the changes we made are accessible in the remote version of the repository online. This new screen popped up saying there are no local changes and we can push 1 commit. All we have to do is hit the "push origin" button. If we go back to the repository webpage, we can see that the changes we made have arrived. 
 
 We can also look at the commit history of this repo: you can click on the "History" button on the right or on the "3 commits" link just underneath the project name. From that screen, we can see a listing of all the commits that have been made, and if we click on a commit, we can see the versions of the files in the repo at the time of that commit.
+
+### Pull, add a .gitignore, push
+
+This will be a very similar process, and we'll follow exactly the same steps as above. What's different this time is that we're going to create a `.gitignore` file and a data file, and Git is going to notice one of them and ignore the other.
+
+1. Don't forget to pull!
+
+2. Make changes.
+
+3. Commit the changes, with a descriptive message.
+
+4. Notice that the csv file is not tracked by git - because it's in the .gitignore.
+
 
 ### Branches
 
