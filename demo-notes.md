@@ -51,7 +51,7 @@ We can also look at the commit history of this repo: you can click on the "Histo
 
 Branching is a bit more advanced topic, but it's incredibly useful for collaboration, and even when you're working solo, it's a great way to try out something new without losing anything.
 
-In the interest of time, I'm not going to demo the full process of creating a branch today. Instead, I'll show how to view different branches on GitHub and what it looks like to work on different branches on your local computer.
+I'm going to start by simply showing how to view different branches on GitHub and what it looks like to work on different branches on your local computer. I'll point out where you would create a new branch along the way, but I won't demo creating and pushing a new branch unless there's extra time.
 
 #### To view different branches on GitLab
 
